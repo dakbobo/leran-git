@@ -14,22 +14,15 @@
 		<?php if (isset($_GET['number1']) ):?>
 			<?php if (!is_numeric($_GET['number1'])): ?><p>請輸入數字</p><?php endif; ?>
 		<?php 
-		 function fibonacci($number1){
-			if ($number1 == 0 || $number1 == 1 )
-				{
-				
+		 function fibonacci($number1) {
+			if ($number1 == 0 || $number1 == 1 ) {
+				return $number1;
 				}else{
-					
-				}	
-				$fibs[$i] = $fibs[$i-1] + $fibs[$i-2];
-		}
-		fibonacci($_GET['number1'])
+				 return fibonacci($number1-1) + fibonacci($number1-2);	
+			}	
+		 }
+		 echo (fibonacci ($_GET["number1"]));
 		?>
-			
-			
-			
-			
-		
 		<?php endif;?>
 		</form>
 	</body>
