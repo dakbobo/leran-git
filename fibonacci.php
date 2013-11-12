@@ -15,13 +15,7 @@
 			<?php if (!is_numeric($_GET['number1'])): ?><p>請輸入數字</p><?php endif; ?>
 		<?php 
 		 function fibonacci($number1){
-			$fibs=array(0,1);
-			for($i=2;$i<$number1;$i++){
-				$fibs[$i]=$fibs[$i-1]+$fibs[$i-2];
-			}
-			foreach($fibs as $fib){
-				echo $fib.",";
-			}
+				$fibs[$i] = $fibs[$i-1] + $fibs[$i-2];
 		}
 		fibonacci($_GET['number1'])
 		?>
