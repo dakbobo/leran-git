@@ -16,14 +16,14 @@
 		<?php 
 		 function fibonacci($number1){
 			$fibs=array(0,1);
-			for($i=2;$i<$n;$i++){
+			for($i=2;$i<$number1;$i++){
 				$fibs[$i]=$fibs[$i-1]+$fibs[$i-2];
 			}
 			foreach($fibs as $fib){
 				echo $fib.",";
 			}
 		}
-		fibonacci($number1)
+		fibonacci($_GET['number1'])
 		?>
 			
 			
