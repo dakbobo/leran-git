@@ -18,6 +18,8 @@
 			if ($number1 == 0 || $number1 == 1 )
 				{
 				
+				}else{
+					
 				}	
 				$fibs[$i] = $fibs[$i-1] + $fibs[$i-2];
 		}
