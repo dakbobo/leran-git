@@ -15,6 +15,10 @@
 			<?php if (!is_numeric($_GET['number1'])): ?><p>請輸入數字</p><?php endif; ?>
 		<?php 
 		 function fibonacci($number1){
+			if ($number1 == 0 || $number1 == 1 )
+				{
+				
+				}	
 				$fibs[$i] = $fibs[$i-1] + $fibs[$i-2];
 		}
 		fibonacci($_GET['number1'])
