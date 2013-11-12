@@ -13,6 +13,7 @@
 		<br/>
 		<?php if (isset($_GET['number1']) && isset($_GET['number2']) ):?>
 			<?php if (!is_numeric($_GET['number1'])): ?><p>請輸入數字</p><?php endif; ?>
+			<?php endif;?>
 		</form>
 	</body>
 </html>
