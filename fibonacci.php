@@ -21,7 +21,7 @@
 				 return fibonacci($number1-1) + fibonacci($number1-2);	
 			}	
 		 }
-		 echo (fibonacci ($_GET["number1"]));
+		 echo (fibonacci($_GET["number1"]));
 		?>
 		<?php endif;?>
 		</form>
