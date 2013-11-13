@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 	<head>
 		<meta charset="utf-8">
-		<title>php</title>
+		<title>fibonacci</title>
 	</head>
 	<body>
 		<form method="get" action="fibonacci.php">
