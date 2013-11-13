@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<form method="get" action="fibonacci.php">
-		<label for="number1">數字</label>
+		<label for="number1">number</label>
 		<input type="text" id="number1" name="number1">
 		<br>
 		<input type="submit" value="submit">
