@@ -20,6 +20,7 @@
 				}else{
 				 return fibonacci($number1-1) + fibonacci($number1-2);
 				 return fibonacci($number1-1) - fibonacci($number1-2);
+				 return fibonacci($number1-1) * fibonacci($number1-2);
 			}	
 		 }
 		 echo (fibonacci($_GET["number1"]));
