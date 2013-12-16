@@ -3,8 +3,7 @@
 數字: <input type="text" name="user">
 數字2: <input type="text" name="user1">
 <br/>
-<input type="submit" value="yes">
+<input type="submit" value="確定">
 <br>
 <?php echo "{$_GET['user']} * {$_GET['user1']} =";echo  $_GET['user'] * $_GET['user1']; ?>
-<?php echo "{$_GET['user']} - {$_GET['user1']} =";echo  $_GET['user'] - $_GET['user1']; ?>
 </form>
