@@ -18,7 +18,8 @@
 			if ($number1 == 0 || $number1 == 1 ) {
 				return $number1;
 				}else{
-				 return fibonacci($number1-1) + fibonacci($number1-2);	
+				 return fibonacci($number1-1) + fibonacci($number1-2);
+				 return fibonacci($number1-1) - fibonacci($number1-2);
 			}	
 		 }
 		 echo (fibonacci($_GET["number1"]));
